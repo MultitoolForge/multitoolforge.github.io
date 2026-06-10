@@ -1,0 +1,430 @@
+---
+layout: layouts/main.vto
+title: Multi Tool Forge Hub
+---
+
+<!-- Hero -->
+<header class="bg-slate-800 text-white px-6 py-16">
+  <div
+    class="max-w-5xl mx-auto flex flex-col md:flex-row md:items-center gap-10 md:gap-16"
+  >
+    <!-- Logo -->
+    <div
+      class="shrink-0 flex flex-col items-center"
+      aria-label="Multitool Forge"
+    >
+      <span class="mtf-wordmark text-4xl sm:text-5xl text-white leading-none"
+      >MU<span class="mtf-accent">LTI</span>TOOL</span>
+      <img
+        src="/assets/logo-anvil.png"
+        alt=""
+        class="w-52 sm:w-60 h-auto"
+      />
+      <span
+        class="mtf-wordmark text-3xl sm:text-4xl text-orange-500 leading-none"
+        style="letter-spacing: 0.35em; text-indent: 0.35em"
+      >Forge</span>
+    </div>
+
+    <!-- Text -->
+    <div>
+      <p
+        class="text-orange-400 font-semibold tracking-widest uppercase text-sm mb-3"
+      >
+        An Apereo Foundation Project
+      </p>
+      <h1
+        class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white mb-6 max-w-2xl leading-tight"
+      >
+        Building LTI&reg; apps to fill LMS gaps.
+      </h1>
+      <p class="text-slate-400 max-w-2xl leading-relaxed">
+        A collaborative open-source community developing high-quality,
+        LMS-agnostic LTI&reg; tools — empowering universities to move faster
+        than vendor roadmaps and address custom teaching and learning needs
+        together.
+      </p>
+      <div class="mt-8 flex gap-4 flex-wrap">
+        <a
+          href="#projects"
+          class="bg-orange-600 hover:bg-orange-500 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+        >Browse Projects</a>
+        <a
+          href="#join"
+          class="border border-slate-500 hover:border-orange-400 text-slate-300 hover:text-orange-400 font-semibold px-6 py-3 rounded-lg transition-colors"
+        >How to Join</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Why Multi Tool Forge -->
+<section class="bg-white border-b border-slate-200 px-6 py-14">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-2xl font-bold text-slate-800 mb-3">
+      Why Multi Tool Forge?
+    </h2>
+    <p class="text-slate-600 max-w-3xl mb-10 leading-relaxed">
+      The enterprise LMS has become monolithic — mission-critical, yet difficult
+      to modify. Innovation around niche teaching needs has shifted toward LTI
+      app development. But institutions often work in silos, building solutions
+      that already exist elsewhere. Multi Tool Forge connects those teams,
+      providing a shared space to collaborate in a standards-based environment.
+    </p>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="p-5 bg-slate-50 rounded-xl border-l-4 border-orange-500">
+        <h3 class="font-bold text-slate-800 mb-2">Bridge the Gap</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          Production-ready tools for features missing or under-optimized in
+          platforms like Canvas, Blackboard, Brightspace, Moodle, and Sakai.
+        </p>
+      </div>
+      <div class="p-5 bg-slate-50 rounded-xl border-l-4 border-orange-500">
+        <h3 class="font-bold text-slate-800 mb-2">Standards-First</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          Strict adherence to 1EdTech LTI&reg; standards ensures cross-platform
+          compatibility — no vendor lock-in, works wherever LTI is supported.
+        </p>
+      </div>
+      <div class="p-5 bg-slate-50 rounded-xl border-l-4 border-orange-500">
+        <h3 class="font-bold text-slate-800 mb-2">Collective Stewardship</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          One university builds a solution, others contribute and sustain it —
+          reducing duplicated effort and turning siloed code into shared
+          infrastructure.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Table -->
+<section id="projects" class="bg-slate-50 px-6 py-14">
+  <div class="max-w-5xl mx-auto">
+    <div class="flex flex-col gap-4 mb-6">
+      <h2 class="text-2xl font-bold text-slate-800">Projects</h2>
+      <div class="flex flex-col gap-3">
+        <div class="flex items-center gap-2 flex-wrap">
+          <span
+            class="text-xs font-semibold text-slate-500 uppercase tracking-wider w-20 shrink-0"
+          >Type</span>
+          <div class="flex gap-2 flex-wrap" id="type-filters">
+            <button
+              class="filter-btn active"
+              data-group="type"
+              data-filter="all"
+            >
+              All
+            </button>
+            <button class="filter-btn" data-group="type" data-filter="Hub">
+              Hub
+            </button>
+            <button class="filter-btn" data-group="type" data-filter="Library">
+              Library
+            </button>
+            <button class="filter-btn" data-group="type" data-filter="Tool">
+              Tool
+            </button>
+            <button class="filter-btn" data-group="type" data-filter="Example">
+              Example
+            </button>
+          </div>
+        </div>
+        <div class="flex items-center gap-2 flex-wrap">
+          <span
+            class="text-xs font-semibold text-slate-500 uppercase tracking-wider w-20 shrink-0"
+          >Language</span>
+          <div class="flex gap-2 flex-wrap" id="language-filters">
+            <button
+              class="filter-btn active"
+              data-group="language"
+              data-filter="all"
+            >
+              All
+            </button>
+            <button
+              class="filter-btn"
+              data-group="language"
+              data-filter="Java"
+            >
+              Java
+            </button>
+            <button
+              class="filter-btn"
+              data-group="language"
+              data-filter="TypeScript"
+            >
+              TypeScript
+            </button>
+            <button
+              class="filter-btn"
+              data-group="language"
+              data-filter="JavaScript"
+            >
+              JavaScript
+            </button>
+          </div>
+        </div>
+        <div class="flex items-center gap-2 flex-wrap">
+          <span
+            class="text-xs font-semibold text-slate-500 uppercase tracking-wider w-20 shrink-0"
+          >Runtime</span>
+          <div class="flex gap-2 flex-wrap" id="runtime-filters">
+            <button
+              class="filter-btn active"
+              data-group="runtime"
+              data-filter="all"
+            >
+              All
+            </button>
+            <button
+              class="filter-btn"
+              data-group="runtime"
+              data-filter="JVM"
+            >
+              JVM
+            </button>
+            <button
+              class="filter-btn"
+              data-group="runtime"
+              data-filter="Deno"
+            >
+              Deno
+            </button>
+            <button
+              class="filter-btn"
+              data-group="runtime"
+              data-filter="Node"
+            >
+              Node
+            </button>
+          </div>
+        </div>
+        <div class="flex items-center gap-2 flex-wrap">
+          <span
+            class="text-xs font-semibold text-slate-500 uppercase tracking-wider w-20 shrink-0"
+          >Framework</span>
+          <div class="flex gap-2 flex-wrap" id="framework-filters">
+            <button
+              class="filter-btn active"
+              data-group="framework"
+              data-filter="all"
+            >
+              All
+            </button>
+            <button
+              class="filter-btn"
+              data-group="framework"
+              data-filter="Spring"
+            >
+              Spring
+            </button>
+            <button
+              class="filter-btn"
+              data-group="framework"
+              data-filter="React"
+            >
+              React
+            </button>
+            <button
+              class="filter-btn"
+              data-group="framework"
+              data-filter="Lume"
+            >
+              Lume
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
+      <table class="w-full text-sm bg-white">
+        <thead>
+          <tr class="bg-slate-800 text-white text-left">
+            <th class="px-4 py-3 font-semibold">Repo</th>
+            <th class="px-4 py-3 font-semibold">Description</th>
+            <th class="px-4 py-3 font-semibold">Type</th>
+            <th class="px-4 py-3 font-semibold">Language</th>
+            <th class="px-4 py-3 font-semibold">Runtime</th>
+            <th class="px-4 py-3 font-semibold">Frameworks</th>
+            <th class="px-4 py-3 font-semibold">Year</th>
+            <th class="px-4 py-3 font-semibold">License</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ for repo of repos }}
+            <tr
+              class="border-t border-slate-100 hover:bg-orange-50 transition-colors project-row"
+              data-type="{{ repo.type }}"
+              data-languages="{{ repo.languages |> join(',') }}"
+              data-runtimes="{{ repo.runtimes |> join(',') }}"
+              data-frameworks="{{ repo.frameworks |> join(',') }}"
+            >
+              <td class="px-4 py-3 font-medium">
+                <a
+                  href="{{ repo.docs }}"
+                  class="text-orange-600 hover:underline font-semibold"
+                >{{ repo.name }}</a>
+              </td>
+              <td class="px-4 py-3 text-slate-600">{{ repo.description }}</td>
+              <td class="px-4 py-3">
+                <span
+                  class="inline-block bg-slate-100 text-slate-700 text-xs font-medium px-2 py-1 rounded"
+                >{{ repo.type }}</span>
+              </td>
+              <td class="px-4 py-3">
+                {{ for lang of repo.languages }}
+                  <span
+                    class="inline-block bg-sky-50 text-sky-700 text-xs font-medium px-2 py-1 rounded mr-1"
+                  >{{ lang }}</span>
+                {{ /for }}
+              </td>
+              <td class="px-4 py-3">
+                {{ for rt of repo.runtimes }}
+                  <span
+                    class="inline-block bg-violet-50 text-violet-700 text-xs font-medium px-2 py-1 rounded mr-1"
+                  >{{ rt }}</span>
+                {{ /for }}
+              </td>
+              <td class="px-4 py-3">
+                {{ for fw of repo.frameworks }}
+                  <span
+                    class="inline-block bg-orange-50 text-orange-700 text-xs font-medium px-2 py-1 rounded mr-1"
+                  >{{ fw }}</span>
+                {{ /for }}
+              </td>
+              <td class="px-4 py-3 text-slate-500">{{ repo.year }}</td>
+              <td class="px-4 py-3">
+                <span
+                  class="inline-block bg-emerald-50 text-emerald-700 text-xs font-medium px-2 py-1 rounded"
+                >{{ repo.license }}</span>
+              </td>
+            </tr>
+          {{ /for }}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- How to Join + Guiding Principles -->
+<section id="join" class="bg-white border-t border-slate-200 px-6 py-14">
+  <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-start">
+    <div>
+      <h2 class="text-2xl font-bold text-slate-800 mb-4">How to Join</h2>
+      <p class="text-slate-600 leading-relaxed mb-6">
+        Participation is open to any educational institution or developer
+        committed to the mission. Whether contributing code, documentation, or
+        simply adopting a tool — we want to hear from you. Contact the Multi
+        Tool Forge PMC or Community Manager to request access.
+      </p>
+      <ul class="space-y-3 text-sm">
+        <li>
+          <span class="text-orange-600 font-semibold">Slack</span>
+          <span class="text-slate-500 mx-2">&mdash;</span>
+          <span class="text-slate-600"
+          >#multitool-forge in the Apereo Slack</span>
+        </li>
+        <li>
+          <span class="text-orange-600 font-semibold">GitHub</span>
+          <span class="text-slate-500 mx-2">&mdash;</span>
+          <a
+            href="https://github.com/MultitoolForge"
+            class="text-orange-600 hover:underline"
+          >github.com/MultitoolForge</a>
+        </li>
+        <li>
+          <span class="text-orange-600 font-semibold">Email</span>
+          <span class="text-slate-500 mx-2">&mdash;</span>
+          <a href="mailto:multitool-forge@apereo.org"
+          >multitool-forge@apereo.org</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="text-2xl font-bold text-slate-800 mb-4">Guiding Principles</h2>
+      <ul class="space-y-4 text-sm">
+        <li class="flex gap-3">
+          <span class="text-orange-500 font-bold shrink-0 mt-0.5">&rarr;</span>
+          <span class="text-slate-600"><strong class="text-slate-700"
+            >Open by Default</strong> &mdash; All code released under an OSI
+            Approved
+            <a href="https://opensource.org/licenses" target="blank"
+            >Open Source License</a>.</span>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-orange-500 font-bold shrink-0 mt-0.5">&rarr;</span>
+          <span class="text-slate-600"><strong class="text-slate-700"
+            >Vendor Neutral</strong> &mdash; Tools designed to work across any
+            LMS that supports LTI&reg; standards.</span>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-orange-500 font-bold shrink-0 mt-0.5">&rarr;</span>
+          <span class="text-slate-600"><strong class="text-slate-700"
+            >Documentation is Code</strong> &mdash; A tool isn't finished until
+            it has clear deployment guides a non-dev admin can follow.</span>
+        </li>
+        <li class="flex gap-3">
+          <span class="text-orange-500 font-bold shrink-0 mt-0.5">&rarr;</span>
+          <span class="text-slate-600"><strong class="text-slate-700"
+            >Institutional Privacy</strong> &mdash; FERPA/GDPR compliance by
+            design, in every tool.</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<script>
+  var activeType = "all";
+  var activeLanguage = "all";
+  var activeRuntime = "all";
+  var activeFramework = "all";
+  var rows = document.querySelectorAll(".project-row");
+
+  function applyFilters() {
+    rows.forEach(function (row) {
+      var typeMatch = activeType === "all" ||
+        row.dataset.type === activeType;
+      var langMatch = activeLanguage === "all" ||
+        row.dataset.languages.split(",").includes(activeLanguage);
+      var rtMatch = activeRuntime === "all" ||
+        row.dataset.runtimes.split(",").includes(activeRuntime);
+      var fwMatch = activeFramework === "all" ||
+        row.dataset.frameworks.split(",").includes(activeFramework);
+      row.style.display = (typeMatch && langMatch && rtMatch && fwMatch)
+        ? ""
+        : "none";
+    });
+  }
+
+  var filterState = {
+    type: function (v) {
+      activeType = v;
+    },
+    language: function (v) {
+      activeLanguage = v;
+    },
+    runtime: function (v) {
+      activeRuntime = v;
+    },
+    framework: function (v) {
+      activeFramework = v;
+    },
+  };
+
+  Object.keys(filterState).forEach(function (group) {
+    var selector = '[data-group="' + group + '"]';
+    document.querySelectorAll(selector).forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        document.querySelectorAll(selector).forEach(function (b) {
+          b.classList.remove("active");
+        });
+        btn.classList.add("active");
+        filterState[group](btn.dataset.filter);
+        applyFilters();
+      });
+    });
+  });
+</script>

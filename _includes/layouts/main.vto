@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | Multi Tool Forge</title>
+    <link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="antialiased">
+    <!-- Nav -->
+    <nav
+      class="bg-slate-800 text-white px-6 py-4 flex items-center justify-between"
+    >
+      <a href="/" class="flex items-center gap-3 group">
+        <img
+          src="/assets/logo-anvil.png"
+          alt="Multi Tool Forge logo"
+          class="h-10 w-auto"
+        />
+        <span
+          class="mtf-wordmark text-2xl text-white"
+          aria-label="Multitool Forge"
+        >MU<span class="mtf-accent">LTI</span>TOOL <span class="mtf-forge"
+          >Forge</span></span>
+        <span class="text-slate-400 text-sm hidden md:inline"
+        >| Higher Ed LTI&reg; Tools</span>
+      </a>
+      <div class="flex items-center gap-6">
+        <a
+          href="/about/"
+          class="text-slate-300 hover:text-orange-400 text-sm font-medium transition-colors"
+        >About</a>
+        <a
+          href="https://github.com/MultitoolForge"
+          class="text-slate-300 hover:text-orange-400 text-sm font-medium transition-colors"
+        >GitHub &rarr;</a>
+      </div>
+    </nav>
+
+    {{ content }}
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-400 px-6 py-8 text-sm">
+      <div class="max-w-5xl mx-auto flex flex-col gap-4">
+        <div
+          class="flex flex-col sm:flex-row justify-between gap-4"
+        >
+          <span class="text-orange-400 font-semibold">Multi Tool Forge</span>
+          <span>
+            An <a
+              href="https://apereo.org"
+              class="hover:text-orange-400 transition-colors"
+            >Apereo Foundation</a>
+            project &mdash; open source, vendor neutral, educator-focused.
+          </span>
+        </div>
+        <p
+          class="text-slate-500 text-xs leading-relaxed border-t border-slate-700 pt-4"
+        >
+          LTI&reg; and Learning Tools Interoperability&reg; are trademarks of
+          <a
+            href="https://www.1edtech.org"
+            class="hover:text-orange-400 transition-colors"
+          >1EdTech Consortium, Inc.</a>, used here in reference to the open
+          standard. Multi Tool Forge is an independent open-source community and
+          is not affiliated with or endorsed by 1EdTech. All other product and
+          company names are trademarks of their respective owners.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
