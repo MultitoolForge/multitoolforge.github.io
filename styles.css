@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* Multitool Forge wordmark */
 .mtf-wordmark {
   font-family: "Saira Condensed", "Arial Narrow", sans-serif;
   font-weight: 700;
@@ -17,6 +16,14 @@
 .mtf-wordmark .mtf-forge {
   font-weight: 600;
   letter-spacing: 0.18em;
+}
+
+sup.reg {
+  font-size: 0.55em;
+  line-height: 0;
+  position: relative;
+  top: 0.35em;
+  vertical-align: baseline;
 }
 
 .filter-btn {
