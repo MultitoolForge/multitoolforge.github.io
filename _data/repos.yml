@@ -1,5 +1,5 @@
 - name: multitoolforge.github.io
-  description: Central hub and project directory for the Multi Tool Forge community.
+  description: Central hub and project directory for the Multitool Forge community.
   type: Hub
   languages:
     - TypeScript

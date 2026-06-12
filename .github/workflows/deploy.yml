@@ -1,4 +1,4 @@
-name: Deploy Multi Tool Forge Hub
+name: Deploy Multitool Forge Hub
 on:
   push:
     branches: [main]
