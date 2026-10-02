@@ -6,7 +6,7 @@ Welcome to MuLTItool Forge\! We are thrilled you’re here. By contributing, you
 
 ## **1\. Code of Conduct**
 
-By participating in this project, you agree to abide by our [Code of Conduct](?tab=t.giy9no3jldtv). We are committed to providing a welcoming, inclusive, and harassment-free experience for everyone.
+By participating in this project, you agree to abide by our CODE_OF_CONDUCT.md. We are committed to providing a welcoming, inclusive, and harassment-free experience for everyone.
 
 ## **2\. How Can I Contribute?**
 
@@ -113,8 +113,8 @@ If you have questions before you start coding:
 * **Join our Community Calls:** We meet monthly on the first Monday of each month from 11:00 AM to 12:30 PM Eastern Time using Big Blue Button:   
   * Join by URL:  [https\://apereo.rooms.blindsidenetworks.com/rooms/vrg-s6b-gcm-yke/join](https://apereo.rooms.blindsidenetworks.com/rooms/vrg-s6b-gcm-yke/join)  
   * Join by phone:  1-510-200-0222   pin: 134 863 164   
-* **Group email list:** [lti-forge@apereo.org](mailto:lti-forge@apereo.org)  
-  * Subscribe by sending an email to: lti-forge+subscribe@apereo.org  
+* **Group email list:** [lti-forge@apereo.org](mailto:multitool-forge@apereo.org)  
+  * Subscribe by sending an email to: multitool-forge+subscribe@apereo.org  
 * **Slack:** \#lti-forge channel in [Apereo Slack](https://apereo.slack.com/signup)  
 * **Contact the Community Manager:** Reach out to [wilma.hodges@apereo.org](mailto:wilma.hodges@apereo.org) for onboarding help.
 

@@ -23,13 +23,13 @@ MuLTItool Forge seeks to connect these disparate teams of developers and provide
 
 **3\. Governance & Roles** 
 
-See [Governance & Roles](?tab=t.5s93xhqk3tbm) tab for additional information.
+See GOVERNANCE.md for additional information.
 
 MuLTItool Forge operates under a meritocratic model led by the **Project Management Committee (PMC)**.
 
 | Role | Responsibility |
 | :---- | :---- |
-| **Project Management Committee (PMC)** | The primary steering body. Responsible for the project's strategic direction, approving new sub-projects, and voting on core membership. |
+| **Project Management Committee (PMC)** | The primary steering body. Responsible for the project's strategic direction, approving new sub-projects, and voting on core membership. |
 | **Community Manager** | Facilitates communication between institutions, manages onboarding for new contributors, and organizes community calls or events. |
 | **Release Manager** | Oversees the versioning and distribution pipeline. Ensures that code meets quality benchmarks before being tagged for stable release. |
 | **Maintainers** | Technical leads with "write" access to specific repositories; responsible for code review and merging PRs. |
